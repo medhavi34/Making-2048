@@ -1,0 +1,43 @@
+body{
+    margin-top:-30px;   
+    background-color: rgba(103, 103, 218, 0.938);
+}
+div{
+    margin: auto;
+}
+
+.box{
+    text-align: center;
+    padding: 10px;
+    font-family:'Courier New';
+}
+
+.grid{
+    width: 408px;
+    height:408px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:antiquewhite;    
+}
+/* any div inside grid will be styled this way */
+.grid div{
+    width:98px;
+    height:98px;
+    margin: 2px;
+    background-color: rgb(226, 198, 215);
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color:rgba(62, 31, 61, 0.938);
+    font-family: "Courier New";
+}
+
+.heading{
+    width: 400px;
+    height: 150px;
+    font-family:"Impact";
+    color: rgba(103, 103, 218, 0.938);
+    background-color:pink;
+    font-size: 3rem;
+    text-align: center;
+}
